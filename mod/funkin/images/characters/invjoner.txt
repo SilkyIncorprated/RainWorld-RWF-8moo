@@ -1,0 +1,247 @@
+{ "frames": {
+   "funkin_invjoner_idle_0": {
+    "frame": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_left_0": {
+    "frame": { "x": 168, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_left_1": {
+    "frame": { "x": 336, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_down_0": {
+    "frame": { "x": 504, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_down_1": {
+    "frame": { "x": 672, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_0": {
+    "frame": { "x": 840, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_1": {
+    "frame": { "x": 1008, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_2": {
+    "frame": { "x": 1176, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_3": {
+    "frame": { "x": 1344, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_4": {
+    "frame": { "x": 1512, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_5": {
+    "frame": { "x": 1680, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_6": {
+    "frame": { "x": 1848, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_7": {
+    "frame": { "x": 2016, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_8": {
+    "frame": { "x": 2184, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_9": {
+    "frame": { "x": 2352, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_10": {
+    "frame": { "x": 2520, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_11": {
+    "frame": { "x": 2688, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_12": {
+    "frame": { "x": 2856, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_13": {
+    "frame": { "x": 3024, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_14": {
+    "frame": { "x": 3192, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_15": {
+    "frame": { "x": 3360, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_16": {
+    "frame": { "x": 3528, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_17": {
+    "frame": { "x": 3696, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_up_18": {
+    "frame": { "x": 3864, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_right_0": {
+    "frame": { "x": 4032, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_right_1": {
+    "frame": { "x": 4200, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_right_2": {
+    "frame": { "x": 4368, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   },
+   "funkin_invjoner_right_3": {
+    "frame": { "x": 4536, "y": 0, "w": 168, "h": 168 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 168, "h": 168 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.2-x64",
+  "image": "invjoner.png",
+  "format": "RGBA8888",
+  "size": { "w": 4704, "h": 168 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle", "from": 0, "to": 0, "direction": "forward", "color": "#000000ff" },
+   { "name": "left", "from": 1, "to": 2, "direction": "forward", "color": "#000000ff" },
+   { "name": "down", "from": 3, "to": 4, "direction": "forward", "color": "#000000ff" },
+   { "name": "up", "from": 5, "to": 23, "direction": "forward", "color": "#000000ff" },
+   { "name": "right", "from": 24, "to": 27, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

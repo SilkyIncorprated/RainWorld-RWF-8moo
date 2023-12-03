@@ -1,0 +1,39 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_rivuletjoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_rivuletjoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_rivuletjoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_rivuletjoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_rivuletjoner_right",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 2,
+	"icon" : "rivuletjoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/rivuletjoner",
+	"GlobalPosition" : [5, 15]
+}

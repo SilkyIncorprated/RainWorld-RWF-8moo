@@ -1,0 +1,39 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_artificerjoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_artificerjoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_artificerjoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_artificerjoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_artificerjoner_right",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 2,
+	"icon" : "artificerjoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/artificerjoner",
+	"GlobalPosition" : [0, 0]
+}

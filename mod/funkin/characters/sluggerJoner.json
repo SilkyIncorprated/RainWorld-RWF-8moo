@@ -1,0 +1,63 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_sluggerJoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_sluggerJoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_sluggerJoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_sluggerJoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_sluggerJoner_right",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left-alt",
+			"elementName": "funkin_sluggerJoner_left-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down-alt",
+			"elementName": "funkin_sluggerJoner_down-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up-alt",
+			"elementName": "funkin_sluggerJoner_up-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right-alt",
+			"elementName": "funkin_sluggerJoner_right-alt",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 2,
+	"icon" : "sluggerJoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/sluggerJoner",
+	"GlobalPosition" : [0, 0]
+}

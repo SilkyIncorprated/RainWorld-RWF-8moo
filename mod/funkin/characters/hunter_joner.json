@@ -1,0 +1,39 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_hunterjoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_hunterjoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_hunterjoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_hunterjoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_hunterjoner_right",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 2,
+	"icon" : "hunterjoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/hunterjoner",
+	"GlobalPosition" : [0, 0]
+}

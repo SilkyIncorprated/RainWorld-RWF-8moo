@@ -1,0 +1,155 @@
+{ "frames": {
+   "funkin_sluggerJoner_idle_0": {
+    "frame": { "x": 272, "y": 0, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_idle_1": {
+    "frame": { "x": 416, "y": 0, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_left_0": {
+    "frame": { "x": 272, "y": 144, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_left_1": {
+    "frame": { "x": 416, "y": 144, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_down_0": {
+    "frame": { "x": 304, "y": 432, "w": 144, "h": 128 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 48, "w": 144, "h": 128 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_down_1": {
+    "frame": { "x": 0, "y": 160, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_up_0": {
+    "frame": { "x": 144, "y": 288, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_up_1": {
+    "frame": { "x": 288, "y": 288, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_right_0": {
+    "frame": { "x": 432, "y": 288, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_right_1": {
+    "frame": { "x": 0, "y": 304, "w": 144, "h": 144 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 32, "w": 144, "h": 144 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_left-alt_0": {
+    "frame": { "x": 144, "y": 432, "w": 160, "h": 128 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 0, "y": 48, "w": 160, "h": 128 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_left-alt_1": {
+    "frame": { "x": 448, "y": 432, "w": 144, "h": 128 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 48, "w": 144, "h": 128 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_down-alt_0": {
+    "frame": { "x": 144, "y": 560, "w": 144, "h": 112 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 64, "w": 144, "h": 112 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_down-alt_1": {
+    "frame": { "x": 0, "y": 448, "w": 144, "h": 128 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 48, "w": 144, "h": 128 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_up-alt_0": {
+    "frame": { "x": 144, "y": 0, "w": 128, "h": 176 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 0, "w": 128, "h": 176 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_up-alt_1": {
+    "frame": { "x": 0, "y": 0, "w": 144, "h": 160 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 16, "w": 144, "h": 160 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_right-alt_0": {
+    "frame": { "x": 432, "y": 560, "w": 144, "h": 96 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 80, "w": 144, "h": 96 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   },
+   "funkin_sluggerJoner_right-alt_1": {
+    "frame": { "x": 288, "y": 560, "w": 144, "h": 112 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 16, "y": 64, "w": 144, "h": 112 },
+    "sourceSize": { "w": 168, "h": 168 },
+    "duration": 88
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.2-x64",
+  "image": "sluggerJoner.png",
+  "format": "RGBA8888",
+  "size": { "w": 592, "h": 672 },
+  "scale": "1"
+ }
+}

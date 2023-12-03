@@ -1,0 +1,17 @@
+{
+  "Title": "RWF: 8moo",
+  "Description": "(I Consider this a example)\r\nA Port of 17boo\u0027s Joner",
+  "ID": "silky.rwf.8moons",
+  "Version": "1.0.1",
+  "TargetGameVersion": "v1.9.06",
+  "Requirements": "silky.rwf",
+  "RequirementNames": "Rainy World Funkin\u0027",
+  "Authors": "Silky",
+  "Visibility": "Unlisted",
+  "Tags": [
+    "Game Modes"
+  ],
+  "WorkshopID": 3104336855,
+  "UploadFilesOnly": false,
+  "UploadThumbnail": false
+}

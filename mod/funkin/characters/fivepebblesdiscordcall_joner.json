@@ -1,0 +1,39 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_5pebbsjoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_5pebbsjoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_5pebbsjoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_5pebbsjoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_5pebbsjoner_right",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 3,
+	"icon" : "5pebbsjoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/5pebbsjoner",
+	"GlobalPosition" : [0, 0]
+}

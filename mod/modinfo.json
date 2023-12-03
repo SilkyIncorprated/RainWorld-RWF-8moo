@@ -1,0 +1,10 @@
+﻿{
+	"id": "silky.rwf.8moons",
+	"name": "RWF: 8moo",
+	"version": "1.0.0",
+	"authors": "Silky",
+	"description": "A port of 17boo",
+	"requirements": [ "silky.rwf" ],
+	"requirements_names": [ "Rainy World Funkin'" ],
+	"checksum_override_version" : false
+}

@@ -1,0 +1,45 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_eviljoner_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_eviljoner_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_eviljoner_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_eviljoner_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_eviljoner_right",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "transform",
+			"elementName": "funkin_eviljoner_transform",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 2,
+	"icon" : "eviljoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/eviljoner",
+	"GlobalPosition" : [0, 0]
+}

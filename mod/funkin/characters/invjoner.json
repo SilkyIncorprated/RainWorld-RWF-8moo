@@ -1,0 +1,39 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_invjoner_idle",
+			"loops": false,
+			"framerate": 2
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_invjoner_left",
+			"loops": false,
+			"framerate": 6
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_invjoner_down",
+			"loops": false,
+			"framerate": 6
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_invjoner_up",
+			"loops": false,
+			"framerate": 22
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_invjoner_right",
+			"loops": false,
+			"framerate": 18
+		}
+	],
+	"scale" : 2,
+	"icon" : "invjoner",
+	"isFacingRight" : false,
+	"character_image" : "characters/invjoner",
+	"GlobalPosition" : [0, 0]
+}
