@@ -63,6 +63,8 @@ namespace EightMoo
 
             if (self.SONG.Name == "OGG")
             {
+
+                self.health = 2;
                 
                 if (Conductor.songPosition >= 177675)
                 {
