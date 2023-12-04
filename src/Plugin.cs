@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using RWF.FNFJSON;
 using System.Linq;
 using System.Collections;
+using System.Runtime.InteropServices;
+using Rewired.UI.ControlMapper;
 
 namespace EightMoo
 {
@@ -28,6 +30,14 @@ namespace EightMoo
 
         private Character currentSingerTarget = null;
 
+        //Import the following.
+        [DllImport("user32.dll", EntryPoint = "SetWindowText")]
+        public static extern bool SetWindowText(System.IntPtr hwnd, System.String lpString);
+
+        [DllImport("user32.dll", EntryPoint = "FindWindow")]
+        public static extern System.IntPtr FindWindow(System.String className, System.String windowName);
+
+        private System.IntPtr CurrentWindow;
 
         // Add hooks
         public void OnEnable()
@@ -40,6 +50,9 @@ namespace EightMoo
             FunkinMenu.OnBeatHit += FunkinMenu_OnBeatHit;
             FunkinMenu.UpdateCameraTarget += FunkinMenu_UpdateCameraTarget;
             FunkinMenu.OnUpdate += FunkinMenu_OnUpdate;
+
+            CurrentWindow = FindWindow(null, "Rain World");
+
         }
 
         private void FunkinMenu_OnUpdate(FunkinMenu self)
@@ -108,7 +121,7 @@ namespace EightMoo
                         }
                         else if (curBeat >= 524 && curBeat < 533)
                         {
-                            blacker.alpha = (float)UnityEngine.Random.Range(0, 8) / 10f;
+                            blacker.alpha = (float)UnityEngine.Random.Range(0, 8) / 10f;            
                         }
                     }
 
@@ -214,6 +227,9 @@ namespace EightMoo
 
             if (self.SONG.Name == "OGG")
             {
+
+                SetWindowText(CurrentWindow, "");
+
                 self.skipCountdown = true;
 
                 self.bar.sprite.isVisible = self.hpIconP1.sprite.isVisible = self.hpIconP2.sprite.isVisible = self.scoretText.label.isVisible = false;
