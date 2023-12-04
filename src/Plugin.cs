@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace EightMoo
 {
-    [BepInPlugin(MOD_ID, "RWF: 8moo", "1.0.0")]
+    [BepInPlugin(MOD_ID, "RWF: 8moo", "1.1.0")]
     class Plugin : BaseUnityPlugin
     {
         private const string MOD_ID = "silky.rwf.8moons";
