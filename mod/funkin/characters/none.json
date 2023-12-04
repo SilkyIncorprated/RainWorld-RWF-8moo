@@ -1,0 +1,63 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_truefear_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_truefear_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_truefear_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_truefear_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_truefear_right",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left-alt",
+			"elementName": "funkin_truefear_left-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down-alt",
+			"elementName": "funkin_truefear_down-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up-alt",
+			"elementName": "funkin_truefear_up-alt",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right-alt",
+			"elementName": "funkin_truefear_right-alt",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 3,
+	"icon" : "truefear",
+	"isFacingRight" : true,
+	"character_image" : "characters/truefear",
+	"GlobalPosition" : [0, 0]
+}

@@ -1,0 +1,63 @@
+{
+	"animations" : [
+		{
+			"anim": "idle",
+			"elementName": "funkin_nightcatOGG_idle",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left",
+			"elementName": "funkin_nightcatOGG_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down",
+			"elementName": "funkin_nightcatOGG_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up",
+			"elementName": "funkin_nightcatOGG_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right",
+			"elementName": "funkin_nightcatOGG_right",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "left-alt",
+			"elementName": "funkin_nightcatOGG_left",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "down-alt",
+			"elementName": "funkin_nightcatOGG_down",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "up-alt",
+			"elementName": "funkin_nightcatOGG_up",
+			"loops": false,
+			"framerate": 13
+		},
+		{
+			"anim": "right-alt",
+			"elementName": "funkin_nightcatOGG_right",
+			"loops": false,
+			"framerate": 13
+		}
+	],
+	"scale" : 4,
+	"icon" : "nightcatOGG",
+	"isFacingRight" : false,
+	"character_image" : "characters/nightcatOGG",
+	"GlobalPosition" : [0, 0]
+}

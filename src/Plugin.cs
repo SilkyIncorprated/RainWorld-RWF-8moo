@@ -24,6 +24,7 @@ namespace EightMoo
         ];*/
 
         private Dictionary<string, Character> chars = new Dictionary<string, Character>();
+        private FSprite blacker;
 
         private Character currentSingerTarget = null;
 
@@ -38,6 +39,80 @@ namespace EightMoo
             FunkinMenu.OnPlayerHit += FunkinMenu_OnPlayerHit;
             FunkinMenu.OnBeatHit += FunkinMenu_OnBeatHit;
             FunkinMenu.UpdateCameraTarget += FunkinMenu_UpdateCameraTarget;
+            FunkinMenu.OnUpdate += FunkinMenu_OnUpdate;
+        }
+
+        private void FunkinMenu_OnUpdate(FunkinMenu self)
+        {
+            /*
+             if getProperty('blacker.alpha') < 1 then
+                if curBeat < 488 then
+                    setProperty('blacker.alpha',getRandomInt(0,6)/100)
+                elseif curBeat >= 488 and curBeat < 512 then 
+                    setProperty('blacker.alpha',getRandomInt(0,3)/10)
+                elseif curBeat >= 512 and curBeat < 524 then 
+                    setProperty('blacker.alpha',getRandomInt(0,3)/10)
+                elseif curBeat >= 524 and curBeat < 533 then 
+                    setProperty('blacker.alpha',getRandomInt(0,8)/10)
+                end
+            end
+            if luaSpriteExists('blackerr') then
+                setProperty('blackerr.alpha',getRandomInt(0,3)/10)
+            end
+            */
+
+            if (self.SONG.Name == "OGG")
+            {
+                
+                if (Conductor.songPosition >= 177675)
+                {
+                    Application.Quit();
+                }
+
+                if (blacker is not null)
+                {
+                    var curBeat = Conductor.curBeat;
+
+                    if (curBeat == 64)
+                    {
+                        blacker.alpha = 0;
+                    }
+
+                    if (curBeat > 533 && blacker.alpha > 0)
+                    {
+                        var speed = 1f / 60f;
+                        speed /= 10;
+
+                        blacker.alpha -= speed;
+                    }
+
+                    if (blacker.alpha < 1)
+                    {
+                        if (curBeat == 533)
+                        {
+                            blacker.alpha = 1;
+                        }
+                        else if (curBeat < 488)
+                        {
+                            blacker.alpha = (float)UnityEngine.Random.Range(0, 6) / 100f;
+                        }
+                        else if (curBeat >= 488 && curBeat < 512)
+                        {
+                            blacker.alpha = (float)UnityEngine.Random.Range(0, 3) / 10f;
+                        }
+                        else if (curBeat >= 512 && curBeat < 524)
+                        {
+                            blacker.alpha = (float)UnityEngine.Random.Range(0, 3) / 10f;
+                        }
+                        else if (curBeat >= 524 && curBeat < 533)
+                        {
+                            blacker.alpha = (float)UnityEngine.Random.Range(0, 8) / 10f;
+                        }
+                    }
+
+                }
+
+            }
         }
 
         private void FunkinMenu_UpdateCameraTarget(FunkinMenu self)
@@ -56,11 +131,23 @@ namespace EightMoo
 
         private void FunkinMenu_OnBeatHit(FunkinMenu self, int curBeat)
         {
-            if (self.SONG.Name != "joner") return;
-
-            if (curBeat == 140)
+            if (self.SONG.Name == "OGG" && curBeat == 4)
             {
-                StartCoroutine(Freeze(Conductor.crochet / 1000, self));
+                self.dad.sprite.MoveBehindOtherNode(self.boyfriend.sprite);
+
+                if (curBeat == 380)
+                    blacker.alpha = 1;
+                else if (curBeat == 384)
+                    blacker.alpha = 0;
+
+            }
+
+            if (self.SONG.Name == "joner")
+            {
+                if (curBeat == 140)
+                {
+                    StartCoroutine(Freeze(Conductor.crochet / 1000, self));
+                }
             }
         }
 
@@ -120,66 +207,98 @@ namespace EightMoo
         private void FunkinMenu_OnCreate(FunkinMenu self)
         {
 
+            blacker = null;
             chars = new Dictionary<string, Character>();
 
-            if (self.SONG.Name != "joner") return;
-
-            Character hunter = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/hunter_joner.json")));
-            Character fivepebblesdiscordcall = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/fivepebblesdiscordcall_joner.json")));
-            Character thatslutbitch = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/invjoner.json")));
-            Character rivulta = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/rivuletjoner.json")));
-            hunter.isPlayer = true;
-            fivepebblesdiscordcall.isPlayer = true;
-            thatslutbitch.isPlayer = true;
-            rivulta.isPlayer = true;
-
-            self.currentRappers.Add("hunter", hunter);
-            self.currentRappers.Add("fivepebblesdiscordcall", fivepebblesdiscordcall);
-            self.currentRappers.Add("thatslutbitch", thatslutbitch);
-            self.currentRappers.Add("rivulta", rivulta);
-
-            self.pages[0].subObjects.Add(rivulta);
-            self.pages[0].subObjects.Add(hunter);
-            self.pages[0].subObjects.Add(fivepebblesdiscordcall);
-            self.pages[0].subObjects.Add(thatslutbitch);
-
-            rivulta.sprite.MoveInFrontOfOtherNode(self.boyfriend.sprite);
-            hunter.sprite.MoveInFrontOfOtherNode(hunter.sprite);
-            fivepebblesdiscordcall.sprite.MoveBehindOtherNode(self.boyfriend.sprite);
-            thatslutbitch.sprite.MoveBehindOtherNode(fivepebblesdiscordcall.sprite);
-
-            rivulta.pos = hunter.pos = fivepebblesdiscordcall.pos = thatslutbitch.pos = self.boyfriend.pos;
-
-            rivulta.pos = new Vector2(1185, 395);
-            hunter.pos = new Vector2(1180, 410);
-            hunter.pos += new Vector2(300, -80);
-            thatslutbitch.pos += new Vector2(-315f, 0);
-            thatslutbitch.pos.y = 425;
-            fivepebblesdiscordcall.pos += new Vector2(100, 400);
-
-            chars = new Dictionary<string, Character>()
+            if (self.SONG.Name == "OGG")
             {
-                ["char_jank"] = thatslutbitch,
-                ["char_zomb"] = hunter,
-                ["char_RBLXCYC"] = fivepebblesdiscordcall,
-                ["char_krollge"] = rivulta
-            };
+                self.skipCountdown = true;
 
-            foreach (RWF.Swagshit.Note note in self.unspawnNotes)
-            {
-                foreach (string name in chars.Keys.ToList())
+                self.bar.sprite.isVisible = self.hpIconP1.sprite.isVisible = self.hpIconP2.sprite.isVisible = self.scoretText.label.isVisible = false;
+                foreach (StrumNote strum in self.opponentStrums)
                 {
-                    if (note.noteType == name)
-                    {
-                        note.no_animation = true;
-                        note.noMissAnimation = true;
-                    }
+                    strum.sprite.isVisible = false;
                 }
+
+                foreach (RWF.Swagshit.Note note in self.unspawnNotes)
+                {
+                    if (!note.mustPress) note.sprite.isVisible = false;
+                }
+
+                self.dad.sprite.MoveBehindOtherNode(self.boyfriend.sprite);
+
+                blacker = new("Futile_White");
+                blacker.color = Color.black;
+                blacker.scale = 9999;
+                blacker.alpha = 1;
+
+                self.pages[1].Container.AddChild(blacker);
+
+                blacker.MoveToFront();
+
             }
 
-            currentSingerTarget = self.boyfriend;
+            if (self.SONG.Name == "joner")
+            {
 
-            //fivepebblesdiscordcall.sprite.shader = self.manager.rainWorld.Shaders["Hologram"];
+                Character hunter = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/hunter_joner.json")));
+                Character fivepebblesdiscordcall = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/fivepebblesdiscordcall_joner.json")));
+                Character thatslutbitch = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/invjoner.json")));
+                Character rivulta = new(self, self.pages[0], File.ReadAllText(AssetManager.ResolveFilePath("funkin/characters/rivuletjoner.json")));
+                hunter.isPlayer = true;
+                fivepebblesdiscordcall.isPlayer = true;
+                thatslutbitch.isPlayer = true;
+                rivulta.isPlayer = true;
+
+                self.currentRappers.Add("hunter", hunter);
+                self.currentRappers.Add("fivepebblesdiscordcall", fivepebblesdiscordcall);
+                self.currentRappers.Add("thatslutbitch", thatslutbitch);
+                self.currentRappers.Add("rivulta", rivulta);
+
+                self.pages[0].subObjects.Add(rivulta);
+                self.pages[0].subObjects.Add(hunter);
+                self.pages[0].subObjects.Add(fivepebblesdiscordcall);
+                self.pages[0].subObjects.Add(thatslutbitch);
+
+                rivulta.sprite.MoveInFrontOfOtherNode(self.boyfriend.sprite);
+                hunter.sprite.MoveInFrontOfOtherNode(hunter.sprite);
+                fivepebblesdiscordcall.sprite.MoveBehindOtherNode(self.boyfriend.sprite);
+                thatslutbitch.sprite.MoveBehindOtherNode(fivepebblesdiscordcall.sprite);
+
+                rivulta.pos = hunter.pos = fivepebblesdiscordcall.pos = thatslutbitch.pos = self.boyfriend.pos;
+
+                rivulta.pos = new Vector2(1185, 395);
+                hunter.pos = new Vector2(1180, 410);
+                hunter.pos += new Vector2(300, -80);
+                thatslutbitch.pos += new Vector2(-315f, 0);
+                thatslutbitch.pos.y = 425;
+                fivepebblesdiscordcall.pos += new Vector2(100, 400);
+
+                chars = new Dictionary<string, Character>()
+                {
+                    ["char_jank"] = thatslutbitch,
+                    ["char_zomb"] = hunter,
+                    ["char_RBLXCYC"] = fivepebblesdiscordcall,
+                    ["char_krollge"] = rivulta
+                };
+
+                foreach (RWF.Swagshit.Note note in self.unspawnNotes)
+                {
+                    foreach (string name in chars.Keys.ToList())
+                    {
+                        if (note.noteType == name)
+                        {
+                            note.no_animation = true;
+                            note.noMissAnimation = true;
+                        }
+                    }
+                }
+
+                currentSingerTarget = self.boyfriend;
+
+                //fivepebblesdiscordcall.sprite.shader = self.manager.rainWorld.Shaders["Hologram"];
+
+            }
 
         }
 
@@ -217,6 +336,7 @@ namespace EightMoo
             Futile.atlasManager.LoadAtlas("funkin/images/stages/su_a53");
 
             Futile.atlasManager.LoadImage("funkin/images/fivepebbles_joner_overseer");
+            Futile.atlasManager.LoadImage("funkin/images/thelight");
 
             //Futile.atlasManager.LogAllElementNames();
         }

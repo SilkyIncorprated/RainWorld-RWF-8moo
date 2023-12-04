@@ -1,0 +1,15 @@
+{
+	"pieces" : [
+		{
+			"spr_name": "funkin/images/thelight",
+			"pos": {"x": -4500, "y": -4000},
+			"scale": {"x": 12.5, "y" : 12.5},
+			"scroll": {"x": 0.33, "y": 0.33}
+		}
+	],
+	"zoom" : 0.3,
+	"camSpeed" : 0.04,
+	"bf_scroll" : [1.2, 1.2],
+	"dad_scroll" : [0.65, 0.65],
+	"dad_pos" : [200, 175]
+}
