@@ -39,6 +39,11 @@ namespace EightMoo
 
         private System.IntPtr CurrentWindow;
 
+        private void ChangeWindowTitle(string title = "Rain World")
+        {
+            SetWindowText(CurrentWindow, title);
+        }
+
         // Add hooks
         public void OnEnable()
         {
@@ -76,12 +81,30 @@ namespace EightMoo
 
             if (self.SONG.Name == "OGG")
             {
+                var randomX = self.manager.rainWorld.screenSize.x * 3.1f;
+                OGG_Bubble bubble = new(self, self.pages[0]);
+
+                self.pages[0].subObjects.Add(bubble);
+
+                bubble.pos.y = self.boyfriend.pos.y - 2300;
+                bubble.pos.x += UnityEngine.Random.Range(-randomX / 1.5f, randomX);
 
                 self.health = 2;
                 
-                if (Conductor.songPosition >= 177675)
+                if (Conductor.songPosition >= 177675 && self.dad.sprite.isVisible && self.stage.sprites[0].isVisible)
                 {
-                    Application.Quit();
+                    //Application.Quit(); //this was a placeholder lol but i know what to do now
+
+                    self.dad.sprite.isVisible = self.stage.sprites[0].isVisible = false;
+
+                    ChangeWindowTitle();
+                }
+
+                if (Conductor.songPosition >= 187500 && !self.alreadygoingtoadifferentsecene)
+                {
+                    self.alreadygoingtoadifferentsecene = true;
+
+                    self.manager.RequestMainProcessSwitch(ProcessManager.ProcessID.MainMenu, 8f);
                 }
 
                 if (blacker is not null)
@@ -228,7 +251,11 @@ namespace EightMoo
             if (self.SONG.Name == "OGG")
             {
 
-                SetWindowText(CurrentWindow, "");
+                ChangeWindowTitle("");
+
+                self.useDefaultExitFunction = false;
+
+                self.boyfriend.sprite.shader = self.dad.sprite.shader = self.stage.sprites[0].shader = self.manager.rainWorld.Shaders["Basic"];
 
                 self.skipCountdown = true;
 
@@ -355,6 +382,7 @@ namespace EightMoo
 
             Futile.atlasManager.LoadImage("funkin/images/fivepebbles_joner_overseer");
             Futile.atlasManager.LoadImage("funkin/images/thelight");
+            Futile.atlasManager.LoadImage("funkin/images/bubble");
 
             //Futile.atlasManager.LogAllElementNames();
         }
