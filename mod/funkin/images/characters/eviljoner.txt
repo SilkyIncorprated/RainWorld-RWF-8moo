@@ -1,170 +1,210 @@
 { "frames": {
    "funkin_eviljoner_transform_0": {
-    "frame": { "x": 298, "y": 280, "w": 127, "h": 119 },
+    "frame": { "x": 314, "y": 614, "w": 127, "h": 119 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 25, "y": 43, "w": 127, "h": 119 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 25, "y": 143, "w": 127, "h": 119 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_1": {
-    "frame": { "x": 4, "y": 279, "w": 132, "h": 117 },
+    "frame": { "x": 156, "y": 428, "w": 132, "h": 117 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 20, "y": 47, "w": 132, "h": 117 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 20, "y": 147, "w": 132, "h": 117 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_2": {
-    "frame": { "x": 4, "y": 160, "w": 135, "h": 115 },
+    "frame": { "x": 4, "y": 239, "w": 135, "h": 115 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 17, "y": 46, "w": 135, "h": 115 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 17, "y": 146, "w": 135, "h": 115 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_3": {
-    "frame": { "x": 140, "y": 378, "w": 144, "h": 86 },
+    "frame": { "x": 314, "y": 754, "w": 144, "h": 86 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 12, "y": 78, "w": 144, "h": 86 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 12, "y": 178, "w": 144, "h": 86 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_4": {
-    "frame": { "x": 140, "y": 283, "w": 151, "h": 91 },
+    "frame": { "x": 614, "y": 747, "w": 151, "h": 91 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 8, "y": 74, "w": 151, "h": 91 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 8, "y": 174, "w": 151, "h": 91 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_5": {
-    "frame": { "x": 4, "y": 468, "w": 155, "h": 73 },
+    "frame": { "x": 462, "y": 842, "w": 155, "h": 73 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 10, "y": 92, "w": 155, "h": 73 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 10, "y": 192, "w": 155, "h": 73 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_6": {
-    "frame": { "x": 593, "y": 390, "w": 156, "h": 75 },
+    "frame": { "x": 4, "y": 779, "w": 156, "h": 75 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 11, "y": 88, "w": 156, "h": 75 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 188, "w": 156, "h": 75 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_7": {
-    "frame": { "x": 163, "y": 468, "w": 154, "h": 71 },
+    "frame": { "x": 621, "y": 842, "w": 154, "h": 71 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 11, "y": 92, "w": 154, "h": 71 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 192, "w": 154, "h": 71 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_8": {
-    "frame": { "x": 448, "y": 165, "w": 155, "h": 113 },
+    "frame": { "x": 614, "y": 621, "w": 153, "h": 122 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 3, "y": 53, "w": 155, "h": 113 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 10, "y": 142, "w": 153, "h": 122 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_9": {
-    "frame": { "x": 298, "y": 151, "w": 146, "h": 125 },
+    "frame": { "x": 458, "y": 422, "w": 150, "h": 165 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 12, "y": 38, "w": 146, "h": 125 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 9, "y": 98, "w": 150, "h": 165 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_10": {
-    "frame": { "x": 147, "y": 147, "w": 147, "h": 132 },
+    "frame": { "x": 615, "y": 419, "w": 148, "h": 198 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 12, "y": 32, "w": 147, "h": 132 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 10, "y": 67, "w": 148, "h": 198 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_transform_11": {
-    "frame": { "x": 301, "y": 4, "w": 144, "h": 143 },
+    "frame": { "x": 464, "y": 4, "w": 149, "h": 208 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 14, "y": 21, "w": 144, "h": 143 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 10, "y": 57, "w": 149, "h": 208 },
+    "sourceSize": { "w": 168, "h": 268 },
+    "duration": 100
+   },
+   "funkin_eviljoner_transform_12": {
+    "frame": { "x": 617, "y": 4, "w": 151, "h": 205 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 9, "y": 62, "w": 151, "h": 205 },
+    "sourceSize": { "w": 168, "h": 268 },
+    "duration": 100
+   },
+   "funkin_eviljoner_transform_13": {
+    "frame": { "x": 152, "y": 226, "w": 149, "h": 198 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 11, "y": 66, "w": 149, "h": 198 },
+    "sourceSize": { "w": 168, "h": 268 },
+    "duration": 100
+   },
+   "funkin_eviljoner_transform_14": {
+    "frame": { "x": 305, "y": 413, "w": 149, "h": 197 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 10, "y": 68, "w": 149, "h": 197 },
+    "sourceSize": { "w": 168, "h": 268 },
+    "duration": 100
+   },
+   "funkin_eviljoner_transform_15": {
+    "frame": { "x": 463, "y": 216, "w": 148, "h": 202 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 11, "y": 64, "w": 148, "h": 202 },
+    "sourceSize": { "w": 168, "h": 268 },
+    "duration": 100
+   },
+   "funkin_eviljoner_transform_16": {
+    "frame": { "x": 617, "y": 213, "w": 149, "h": 202 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 10, "y": 62, "w": 149, "h": 202 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_idle_0": {
-    "frame": { "x": 301, "y": 4, "w": 144, "h": 143 },
+    "frame": { "x": 617, "y": 213, "w": 149, "h": 202 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 14, "y": 21, "w": 144, "h": 143 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 10, "y": 62, "w": 149, "h": 202 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_left_0": {
-    "frame": { "x": 147, "y": 4, "w": 150, "h": 139 },
+    "frame": { "x": 305, "y": 4, "w": 155, "h": 200 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 10, "y": 26, "w": 150, "h": 139 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 7, "y": 65, "w": 155, "h": 200 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_left_1": {
-    "frame": { "x": 449, "y": 4, "w": 145, "h": 142 },
+    "frame": { "x": 305, "y": 208, "w": 154, "h": 201 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 13, "y": 24, "w": 145, "h": 142 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 8, "y": 64, "w": 154, "h": 201 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_down_0": {
-    "frame": { "x": 607, "y": 281, "w": 154, "h": 105 },
+    "frame": { "x": 4, "y": 598, "w": 154, "h": 157 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 6, "y": 63, "w": 154, "h": 105 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 109, "w": 154, "h": 157 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_down_1": {
-    "frame": { "x": 607, "y": 165, "w": 150, "h": 112 },
+    "frame": { "x": 162, "y": 614, "w": 148, "h": 161 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 9, "y": 53, "w": 150, "h": 112 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 105, "w": 148, "h": 161 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_up_0": {
-    "frame": { "x": 598, "y": 4, "w": 129, "h": 157 },
+    "frame": { "x": 4, "y": 4, "w": 144, "h": 231 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 23, "y": 7, "w": 129, "h": 157 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 15, "y": 36, "w": 144, "h": 231 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_up_1": {
-    "frame": { "x": 4, "y": 4, "w": 139, "h": 152 },
+    "frame": { "x": 152, "y": 4, "w": 149, "h": 218 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 16, "y": 11, "w": 139, "h": 152 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 47, "w": 149, "h": 218 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_right_0": {
-    "frame": { "x": 429, "y": 383, "w": 160, "h": 88 },
+    "frame": { "x": 458, "y": 591, "w": 152, "h": 159 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 8, "y": 77, "w": 160, "h": 88 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 7, "y": 105, "w": 152, "h": 159 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    },
    "funkin_eviljoner_right_1": {
-    "frame": { "x": 429, "y": 282, "w": 153, "h": 97 },
+    "frame": { "x": 4, "y": 428, "w": 148, "h": 166 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 10, "y": 68, "w": 153, "h": 97 },
-    "sourceSize": { "w": 168, "h": 168 },
+    "spriteSourceSize": { "x": 11, "y": 98, "w": 148, "h": 166 },
+    "sourceSize": { "w": 168, "h": 268 },
     "duration": 100
    }
  },
@@ -173,7 +213,7 @@
   "version": "1.3.2-x64",
   "image": "eviljoner.png",
   "format": "RGBA8888",
-  "size": { "w": 765, "h": 545 },
+  "size": { "w": 779, "h": 919 },
   "scale": "1"
  }
 }

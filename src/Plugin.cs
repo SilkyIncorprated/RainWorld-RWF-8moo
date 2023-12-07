@@ -88,6 +88,7 @@ namespace EightMoo
 
                 bubble.pos.y = self.boyfriend.pos.y - 2300;
                 bubble.pos.x += UnityEngine.Random.Range(-randomX / 1.5f, randomX);
+                bubble.lastpos = bubble.pos;
 
                 self.health = 2;
                 
@@ -100,11 +101,11 @@ namespace EightMoo
                     ChangeWindowTitle();
                 }
 
-                if (Conductor.songPosition >= 187500 && !self.alreadygoingtoadifferentsecene)
+                if (Conductor.songPosition >= 180000 && !self.alreadygoingtoadifferentsecene)
                 {
                     self.alreadygoingtoadifferentsecene = true;
 
-                    self.manager.RequestMainProcessSwitch(ProcessManager.ProcessID.MainMenu, 8f);
+                    self.manager.RequestMainProcessSwitch(ProcessManager.ProcessID.MainMenu, 12.5f);
                 }
 
                 if (blacker is not null)
@@ -369,6 +370,8 @@ namespace EightMoo
                 self.dad = newDad;
                 self.currentRappers["dad"] = newDad;
 
+                newDad.pos.y += (268 - 168);
+
                 Logger.LogInfo("yuh");
 
             }
@@ -397,6 +400,8 @@ namespace EightMoo
 
             //glitch.shader = FShader.Additive;
 
+            ChangeWindowTitle("Rain World (Not Responding)");
+
             funkinMenu.pages[1].Container.AddChild(glitch);
 
             glitch.MoveToFront();
@@ -408,6 +413,8 @@ namespace EightMoo
             Time.timeScale = 1;
 
             funkinMenu.pages[1].Container.RemoveChild(glitch);
+
+            ChangeWindowTitle();
 
         }
         

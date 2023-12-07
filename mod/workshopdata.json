@@ -1,6 +1,6 @@
 {
   "Title": "RWF: 8moo",
-  "Description": "(I Consider this a example)\r\nA Port of 17boo\u0027s Joner",
+  "Description": "(I Consider this a example)\r\nA Port of 17boo\u0027s Joner, and OGG",
   "ID": "silky.rwf.8moons",
   "Version": "1.1.0",
   "TargetGameVersion": "v1.9.06",
@@ -12,6 +12,6 @@
     "Game Modes"
   ],
   "WorkshopID": 3104336855,
-  "UploadFilesOnly": false,
-  "UploadThumbnail": false
+  "UploadFilesOnly": true,
+  "UploadThumbnail": true
 }
