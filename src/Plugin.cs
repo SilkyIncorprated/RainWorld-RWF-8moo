@@ -13,7 +13,7 @@ using Rewired.UI.ControlMapper;
 
 namespace EightMoo
 {
-    [BepInPlugin(MOD_ID, "RWF: 8moo", "1.1.0")]
+    [BepInPlugin(MOD_ID, "RWF: 8moo", "1.2.0")]
     class Plugin : BaseUnityPlugin
     {
         private const string MOD_ID = "silky.rwf.8moons";
@@ -236,6 +236,7 @@ namespace EightMoo
                 }
 
                 currentSingerTarget = character;
+                character.holdtimer = 0;
 
             }
             else
